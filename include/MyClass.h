@@ -1,3 +1,6 @@
+#ifndef MYCLASS_H
+#define MYCLASS_H
+
 #include <string>
 #include <TH1.h>
 
@@ -11,3 +14,5 @@ class MyClass{
   void isMyClass();
 
 };
+
+#endif

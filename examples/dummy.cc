@@ -1,6 +1,5 @@
-#include <iostream>
-
 #include "MyClass.h"
+#include <iostream>
 
 using namespace std;
 

@@ -1,5 +1,6 @@
-#include <iostream>
 #include "MyClass.h"
+#include "MyClassNew.h"
+#include <iostream>
 
 using namespace std;
 
@@ -10,4 +11,6 @@ int main(){
   cout << m.h -> GetEntries() << endl;
   m.isMyClass();
 
+  MyClassNew m_new;
+  m_new.isMyClassNew();
 }

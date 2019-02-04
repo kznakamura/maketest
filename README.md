@@ -19,8 +19,7 @@
   
 #### Using MyClass in CINT
   * `[maketest]$ root`
-  * `root [0] #include "include/MyClass.h"`
-  * `root [1] #include "src/MyClass.cc"`
-  * `root [2] MyClass m`
-  * `root [3] m.[MyClass func or valiable]` You can use "Tab" for autocompeletion. 
+  * `root [0] #include "src/MyClass.cc"`
+  * `root [1] MyClass m`
+  * `root [2] m.[MyClass func or valiable]` You can use "Tab" for autocompeletion. 
   

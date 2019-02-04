@@ -17,5 +17,10 @@
     * `$ ./example/root_test.cc` is compiled.
     * `$ ./bin/root_test` will be created.
   
-
-
+#### Using MyClass in CINT
+  * `[maketest]$ root`
+  * `root [0] #include "include/MyClass.h"`
+  * `root [1] #include "src/MyClass.cc"`
+  * `root [2] MyClass m`
+  * `root [3] m.[MyClass func or valiable]` You can use "Tab" for autocompeletion. 
+  

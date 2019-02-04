@@ -1,5 +1,6 @@
+#include "../include/MyClassNew.h"
+// #include "MyClassNew.h" is OK with this Makefile. To include header in CINT, designate relative path. 
 #include <iostream>
-#include "MyClassNew.h"
 
 using namespace std;
 
